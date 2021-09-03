@@ -130,11 +130,11 @@ bool isMatch(const char *s, const char *p) {
 
 控制一个程序流转的方式，即程序执行的方式，并行还是串行，同步还是异步，以及调度不同执行路径或模块，数据之间的存储关系，这些和业务逻辑没有关系。
 
-![](/Users/likejun/ProgrammersLevelUp/31_编程范式游记-编程的本质/pic_1.png)
+![](./pic_1.png)
 
 如果你看过那些混乱不堪的代码，你会发现其中最大的问题是我们把这 Logic 和 Control 纠缠在一起了，所以会导致代码很混乱，难以维护，Bug 很多。绝大多数程序复杂的原因就是这个问题，就如同下面这幅图中表现的情况一样。
 
-![](/Users/likejun/ProgrammersLevelUp/31_编程范式游记-编程的本质/pic_2.png)
+![](./pic_2.png)
 
 ### 再来一个简单的示例
 
